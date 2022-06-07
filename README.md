@@ -1,16 +1,16 @@
-# docraptor-python-tutorial
+# Docraptor Python tutorial
 
 This repository contains a sample project showcasing how you can use [Docraptor](https://docraptor.com/) via Python to convert HTML to PDF. I am using a simple HTML based invoice template from [sparksuite](https://github.com/sparksuite/simple-html-invoice-template/blob/master/invoice.html) as input.
 
 You need to register for an account on [Docraptor](https://docraptor.com/) and get a free API key before you can use this code.
 
-### Requirements
+### 📝 Requirements
 
 This code was tested in Python 3.10 but should work with all Python 3+ versions. You need to install the following dependencies as well:
 
 - docraptor `pip install --upgrade docraptor`
 
-### Run
+### 🏃‍♂️ Run
 
 You need to edit the `invoice.html` file to suit your needs. Next, you need to add your Docraptor API key in your environment. You can do so by opening up the terminal and running this command (replace `YOUR_API_KEY` with your key)
 
@@ -24,7 +24,7 @@ Now you can run the `app.py` file:
 $ python app.py
 ```
 
-### LICENSE
+### 📜 LICENSE
 
 ```
 MIT License
